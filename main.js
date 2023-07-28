@@ -59,6 +59,8 @@ const validateInputs = () => {
         setError(password, 'Password must be at least 8 character.')
     } else {
         setSuccess(password);
+        console.log(password);
+
     }
 
     if(password2Value === '') {
